@@ -9,7 +9,11 @@ import com.kakedev.examen.entities.Vuelo;
 
 public interface VueloRepository extends JpaRepository<Vuelo, Integer>{
 	
-	List<Vuelo> findByPrecioBoletoLessThan(BigDecimal precio);
-
+	//
 	
+	List<Vuelo> findByPrecioBoletoLessThan(BigDecimal precio);
+	
+	//
+
+	List<Vuelo> findByAsientosDisponiblesGreaterThan(Integer asientos);
 }
