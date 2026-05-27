@@ -17,7 +17,7 @@ la evidencia en vivo en la base de datos y el funcionamiento del método persona
 
 
 ##########  Video Explicativo y Defensa PARTE 2.2
-[VIDEO PARTE 2.1](https://drive.google.com/file/d/1kjtBWfb_6924CiFwskMtM9H_Age_UORQ/view?usp=drive_link)
+[VIDEO PARTE 2.2](https://drive.google.com/file/d/1kjtBWfb_6924CiFwskMtM9H_Age_UORQ/view?usp=drive_link)
 
 
 
