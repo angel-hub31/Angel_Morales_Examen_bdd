@@ -25,15 +25,19 @@ public class Vuelo {
 
 	    @Column(name = "asientos_disponibles", nullable = false)
 	    private Integer asientosDisponibles;
+	    
+	    @Column(name = "destino", length = 100)
+		private String destino;
 
 	    public Vuelo() {
 	    }
 
-	    public Vuelo(Integer id, String codigo, BigDecimal precioBoleto, Integer asientosDisponibles) {
+	    public Vuelo(Integer id, String codigo, BigDecimal precioBoleto, Integer asientosDisponibles,String destino) {
 	        this.id = id;
 	        this.codigo = codigo;
 	        this.precioBoleto = precioBoleto;
 	        this.asientosDisponibles = asientosDisponibles;
+	        this.destino = destino;
 	    }
 
 	    public Integer getId() {
@@ -67,6 +71,13 @@ public class Vuelo {
 	    public void setAsientosDisponibles(Integer asientosDisponibles) {
 	        this.asientosDisponibles = asientosDisponibles;
 	    }
+	    public String getDestino() {
+			return destino;
+		}
+
+		public void setDestino(String destino) {
+			this.destino = destino;
+		}
 	
 
 }
